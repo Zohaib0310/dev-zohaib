@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "./Navbar";
 import { Link as ScrollLink } from "react-scroll";
-import UserImg from "../assets/Abu-Sufyan.jpeg";
+import UserImg from "../assets/Zohaib.jpeg";
 
 const Header = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -54,10 +54,10 @@ const Header = () => {
         <div className="md:mt-10 lg:mt-14  sm:mt-0 grid grid-col-2 gap-16 sm:gap-8 md:gap-8 lg:gap-8 xl:gap-8  sm:grid-cols-1 lg:grid-cols-2 py-5 sm:py-10 md:py-15 lg:py-20 xl:py-20  px-4 text-white">
           <div className="mb-10 lg:mb-0 md:mb-0 xl:mb-0">
             <h1 className="text-4xl lg:text-7xl md:text-4xl  font-semibold mb-4">
-              Abu Sufyan
+              Zohaib Anwar
             </h1>
             <h6 className=" text-lg lg:text-4xl md:text-2xl font-medium mb-4 lg:mb-12 md:mb-10">
-              MERN-Stack Developer from Pakistan
+              ReactJS - React Native Dev
             </h6>
 
             <p className="text-xl mb-4 lg:mb-8 md:mb-6">
@@ -66,7 +66,7 @@ const Header = () => {
             </p>
             <div className="flex gap-4">
               <Link
-                href="https://www.linkedin.com/in/muhammadabusufyan/ "
+                href="https://www.linkedin.com/in/zohaibanwar62/ "
                 className="bg-red-500   font-bold py-3 px-9 rounded-full mt-4 hover:bg-blue-800 transition duration-300 ease-in-out"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -74,7 +74,7 @@ const Header = () => {
                 LinkedIn
               </Link>
               <Link
-                href="https://github.com/sufyan468"
+                href="https://github.com/Zohaib0310"
                 className=" py-3 font-bold rounded-full mt-4 bg-blue-800 px-12 hover:bg-red-600 transition duration-300 ease-in-out"
                 rel="noopener noreferrer"
                 target="_blank"

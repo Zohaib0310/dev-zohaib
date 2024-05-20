@@ -67,115 +67,105 @@ export const contactAddressData = [
     id: 2,
     icon: "icon",
     title: "Email",
-    text: "chsufyan3087278@gmail.com",
+    text: "zohaib.anwar0310@gmail.com",
   },
   {
     id: 3,
     icon: "icon",
     title: "Phone",
-    text: "+921 340 3087 278 ",
+    text: "+92 310 6212 262 ",
   },
 ];
 
 export const reviews = [
   {
+    id: 1,
+    quoteImg: Quotes,
+    description:
+      "I have managed Zohaib, he is very supportive and strong knowledge in the latest technologies. He is one who never say no to anyone for getting technical problem, I strongly recommend him as a dynamic, creative and passionate smartest professional software engineer. Best of Luck!",
+    userImg: "https://devman-react.vercel.app/img/testimonials/1.jpg",
+    name: "Arslan Ahmad",
+    role: "Full Stack Developer",
+  },
+  {
     id: 2,
     quoteImg: Quotes,
     description:
-      "I have managed Abu Sufyan, he is very supportive and strong knowledge in the latest technologies. He is one who never say no to anyone for getting technical problem, I strongly recommend him as a dynamic, creative and passionate smartest professional software engineer. Best of Luck!",
+      "I've had the pleasure of working with Zohaib, a very humble person, eager to learn, autonomous and hard-worker. I recommend Abu Sufyan if you are looking for a skilled MERN Stack developer sensible to the context of your project and contributing to add value to your solution.",
     userImg: "https://devman-react.vercel.app/img/testimonials/1.jpg",
-    name: "Ammad Ali",
-    role: "Andriod Developer",
+    name: "Anand",
+    role: "Product Owner",
   },
   {
     id: 3,
     quoteImg: Quotes,
     description:
-      "I've had the pleasure of working with Abu Sufyan, a very humble person, eager to learn, autonomous and hard-worker. I recommend Abu Sufyan if you are looking for a skilled MERN Stack developer sensible to the context of your project and contributing to add value to your solution.",
+      "I have worked with Zohaib during our time developing Gigmi. He is an intelligent, an extremely quick learner and a superb problem solver. He digs deep and will have multiple solutions to a problem and will put all his energy to get things done and that too in a timely manner. Highly recommend!",
     userImg: "https://devman-react.vercel.app/img/testimonials/1.jpg",
-    name: "José Alves",
-    role: "Senior Solution Architect",
+    name: "Micheal",
+    role: "Senior Functional Analyst",
   },
   {
     id: 5,
     quoteImg: Quotes,
     description:
-      "I have worked with Abu Sufyan during our time In Telenor. He is an intelligent, an extremely quick learner and a superb problem solver. He digs deep and will have multiple solutions to a problem and will put all his energy to get things done and that too in a timely manner. Highly recommend!",
+      "I had the professional privilege of working with Zohaib. Technically skilled and always willing to help everyone on the team, he is someone I would always recommend. During the development of You & Me mobile application my team including Zohaib as well worked very passionately. Highly Recommended.",
     userImg: "https://devman-react.vercel.app/img/testimonials/1.jpg",
-    name: "Umair Ahmed",
-    role: "Senior Andriod Developer",
-  },
-  {
-    id: 1,
-    quoteImg: Quotes,
-    description:
-      "Abu Sufyan is a great systems developer, his extensive knowledge of technologies involving the mobile environment makes him a highly recommended professional.",
-    userImg: "https://devman-react.vercel.app/img/testimonials/1.jpg",
-    name: "Edson Pereira Franco",
-    role: "Functional Analyst",
-  },
-  {
-    id: 4,
-    quoteImg: Quotes,
-    description:
-      "I had the professional privilege of working with Abu Sufyan. Technically skilled and always willing to help everyone on the team, he is someone I would always recommend.",
-    userImg: "https://devman-react.vercel.app/img/testimonials/1.jpg",
-    name: "Alex Barboza",
-    role: "Andriod Developer",
+    name: "Angee",
+    role: "Product Owner",
   },
 ];
 
 export const portfolio = [
   {
-    id: 2,
-    title: "Climate Club",
-    subtitle: "MERN Stack Developer",
+    id: 1,
+    title: "Carecloud Centeral",
+    subtitle: "ReactJS Developer",
     description:
-      "Experience The Power Of Carbon Planning For Business. Forward-looking organizations use Climate Club to analyze, forecast, and build agile plans",
+      "Performance Analytics Systems that create dashboards for financial transparency, connected to your EHR, or our own",
     image: "https://devman-react.vercel.app/img/portfolio/2.jpg",
     tools:
-      "Next js, Nest js, TypeORM, PostgreSQL, TypeScript, Chakra-UI, Redux,",
+      "ReactJS, NextJS, Typescript, WebServices, Elastic UI, React Query, Cypress",
     contentDirection: "float-right",
     background: "#7406CC",
     link: "https://www.climateclub.com/",
   },
   {
-    id: 3,
+    id: 2,
     title: "Lago Design",
-    subtitle: "MERN Stack Developer",
+    subtitle: "ReactJS Developer",
     description:
       "Discover LAGO design for all areas of the home: timelessly elegant, made-in-Italy furniture to furnish with a unique and innovative style.",
     image: "https://devman-react.vercel.app/img/portfolio/3.jpg",
     tools:
-      "React js, Node js, ReactQuery, TailwindCss, JavaScript, StyledComponents",
+      "ReactJS, ReactQuery, Material UI, JavaScript, StyledComponents, Redux Toolkit",
     contentDirection: "float-left",
     background: "#C291C4",
     link: "https://www.lagodesign.com/en/",
   },
   {
-    id: 4,
-    title: "TableCloth",
-    subtitle: "MERN Stack Developer",
+    id: 3,
+    title: "Gigmi",
+    subtitle: "Frontend Developer",
     description:
-      "ESG & Impact Measurement Software & Impact Management Services. A platform for collecting and analyzing data. A system for understanding and making change.",
-    image: "https://devman-react.vercel.app/img/portfolio/4.jpg",
-    tools:
-      "Next js, Next js, MUI, Redux Toolkit, MUI, TypeScript, TypeORM, PostgreSQL, Auth0, Pusher",
-    contentDirection: "float-right",
-    background: "#D72587",
-    link: "https://about.tablecloth.io/",
-  },
-  {
-    id: 1,
-    title: "Tutorbees.net",
-    subtitle: "MERN Stack Developer",
-    description:
-      "TutorBees.net provides online tutor in pakistan for students from Grade 5 and above. Best Online tutoring portal for students and professionals.",
+      "GigMi is a platform that connects homeowners, contractors, and gig workers, facilitating efficient service exchanges and secure payments to enhance productivity and project management.",
     image: "https://devman-react.vercel.app/img/portfolio/1.jpg",
-    tools: "React Js, Node js, ROR, BootStrap, SCSS, HTML, CSS",
+    tools: "Html, CSS, ReactJS, NodeJS, BootStrap",
     contentDirection: "float-left",
     background: "#2A2354",
-    link: "https://tutorbees.net/",
+    link: "https://gigmiapp.com/",
+  },
+  {
+    id: 4,
+    title: "Worship Serve",
+    subtitle: "ReactJS Developer",
+    description:
+      "Worship Serve is an application designed to help churches manage volunteer schedules and streamline service planning, enhancing organizational efficiency and communication within religious communities..",
+    image: "https://devman-react.vercel.app/img/portfolio/4.jpg",
+    tools: "Html, CSS, Javascript, ReactJS, MUI",
+    contentDirection: "float-right",
+    background: "#D72587",
+    link: "https://www.worshipserve.com/",
   },
 ];
 
@@ -207,37 +197,28 @@ export const developmentData = [
   {
     id: 1,
     img: Mobile,
-    title: "Mobile Technologies",
+    title: "Mobile App Development",
     description:
-      " React Native, Maps, Firebase Analytics, Firebase Real-Time Database, Firebase Crashlytics, Admob, Mixpanel, Firebase Remote Config, Firebase Dynamic Links, Facebook Deferred deep links, Broadcast Receiver, Hilt, Scope Storage",
+      " React Native, Authentication, Google Maps, React Native Gifted Chats",
     bg: "#6E7FD1",
     radius: "rounded-tl-xl",
   },
   {
     id: 2,
     img: Web,
-    title: "Front Technologies",
+    title: "Frontend Development",
     description:
-      "React js, Next Js, Redux Toolkit, Redux Saga, ReactQuery, Zustand, MUI, TailwindCSS, ChakraUI, Styled Components,  TypeScript, JavaScript ",
+      "Html, CSS, Javascript, TypeScript, ReactJS, NextJS, Redux Toolkit, Redux Saga, React Query, MUI, TailwindCSS, Elastic UI, Styled Components ",
     bg: "#343C55",
     radius: "rounded-tr-xl",
   },
   {
     id: 3,
     img: FrontEnd,
-    title: "BackEnd Development",
-    description:
-      "Nest js, Node js, Express Js, TypeORM, Prisma, PostgreSQL, GraphQL,  MongoDB  ",
+    title: "Backend Development",
+    description: " NodeJS, ExpressJS, MongoDB  ",
     bg: "#142FB5",
     radius: "rounded-bl-xl",
-  },
-  {
-    id: 4,
-    img: DevOps,
-    title: "Payment Gateways",
-    description: "Plaid, Stripe, PayPal, Amazon Pay",
-    bg: "#6B97D3",
-    radius: "rounded-br-xl",
   },
 ];
 
@@ -245,31 +226,27 @@ export const SkillsItemsData = [
   {
     id: 1,
     percentage: 85,
-    label: "React js",
+    label: "ReactJS",
   },
   {
     id: 2,
     percentage: 75,
-    label: "Next js",
+    label: "NextJS",
   },
   {
     id: 3,
-    percentage: 75,
-    label: "Node js",
+    percentage: 60,
+    label: "NodeJS",
   },
+
   {
     id: 4,
-    percentage: 70,
-    label: "Nest js",
-  },
-  {
-    id: 5,
-    percentage: 75,
+    percentage: 65,
     label: "Express js",
   },
 
   {
-    id: 7,
+    id: 5,
     percentage: 85,
     label: "TypeScript",
   },

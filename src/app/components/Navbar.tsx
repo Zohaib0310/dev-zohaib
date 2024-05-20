@@ -22,7 +22,7 @@ const Navbar = () => {
 
   const downloadCV = () => {
     window.open(
-      "https://drive.google.com/file/d/1z0JOTvOBMQi6WvSCkhxfGCoQBNHrjq-x"
+      "https://drive.google.com/file/d/1GWqCbnX0XmDJ75eKfgEA5SBTzniyXRqS/view?usp=sharing"
     );
   };
   return (
@@ -49,7 +49,9 @@ const Navbar = () => {
               className="flex items-center  font-medium  hover:text-red-500"
             >
               <Image src={Logo} width={37} height={37} alt="Logo" />
-              <h1 className="pl-3 text-2xl font-bold text-white">Dev Sufyan</h1>
+              <h1 className="pl-3 text-2xl font-bold text-white">
+                Zohaib Anwar
+              </h1>
             </Link>
           </div>
 

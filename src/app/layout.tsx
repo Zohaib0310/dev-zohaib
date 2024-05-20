@@ -10,7 +10,7 @@ const barlow = Barlow({
 });
 
 export const metadata = {
-  title: "Abu Sufyan | MERN-Stack Developer",
+  title: "Zohaib Anwar | ReactJS Developer",
   description:
     "Web Developer: Transforming complex problems into elegant solutions. Embracing the art of programming to shape innovative solutions.",
   image: "./assets/Abu-Sufyan.jpeg",
