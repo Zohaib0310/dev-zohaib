@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 
 import Image from "next/image";
 import { Link } from "react-scroll";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/icon.jpg";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState<boolean>(false);
@@ -48,7 +48,13 @@ const Navbar = () => {
               duration={500}
               className="flex items-center  font-medium  hover:text-red-500"
             >
-              <Image src={Logo} width={37} height={37} alt="Logo" />
+              <Image
+                src={Logo}
+                width={37}
+                height={37}
+                alt="Logo"
+                style={{ borderRadius: 50 }}
+              />
               <h1 className="pl-3 text-2xl font-bold text-white">
                 Zohaib Anwar
               </h1>

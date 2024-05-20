@@ -106,7 +106,7 @@ export const reviews = [
     role: "Senior Functional Analyst",
   },
   {
-    id: 5,
+    id: 4,
     quoteImg: Quotes,
     description:
       "I had the professional privilege of working with Zohaib. Technically skilled and always willing to help everyone on the team, he is someone I would always recommend. During the development of You & Me mobile application my team including Zohaib as well worked very passionately. Highly Recommended.",
@@ -146,7 +146,7 @@ export const portfolio = [
   {
     id: 3,
     title: "Gigmi",
-    subtitle: "Frontend Developer",
+    subtitle: "ReactJS Developer",
     description:
       "GigMi is a platform that connects homeowners, contractors, and gig workers, facilitating efficient service exchanges and secure payments to enhance productivity and project management.",
     image: "https://devman-react.vercel.app/img/portfolio/1.jpg",

@@ -13,7 +13,7 @@ export const metadata = {
   title: "Zohaib Anwar | ReactJS Developer",
   description:
     "Web Developer: Transforming complex problems into elegant solutions. Embracing the art of programming to shape innovative solutions.",
-  image: "./assets/Abu-Sufyan.jpeg",
+  image: "./assets/Zohaib.jpeg",
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
     <>
       <Head>
         <title>{metadata.title}</title>
-        <link rel="icon" href="./assets/Abu-Sufyan.jpeg" />
+        <link rel="icon" href="./assets/Zohaib.jpeg" />
         <meta name="description" content={metadata.description} />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
