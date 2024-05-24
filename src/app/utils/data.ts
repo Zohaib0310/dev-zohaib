@@ -119,13 +119,13 @@ export const reviews = [
 export const portfolio = [
   {
     id: 1,
-    title: "Carecloud Centeral",
+    title: "Carecloud EHR",
     subtitle: "ReactJS Developer",
     description:
       "Performance Analytics Systems that create dashboards for financial transparency, connected to your EHR, or our own",
     image: "https://devman-react.vercel.app/img/portfolio/2.jpg",
     tools:
-      "ReactJS, NextJS, Typescript, WebServices, Elastic UI, React Query, Cypress",
+      "ReactJS, NextJS, Typescript, WebServices, Elastic UI, Formik, Yup, React Query, Cypress",
     contentDirection: "float-right",
     background: "#7406CC",
     link: "https://www.climateclub.com/",
@@ -138,7 +138,7 @@ export const portfolio = [
       "Discover LAGO design for all areas of the home: timelessly elegant, made-in-Italy furniture to furnish with a unique and innovative style.",
     image: "https://devman-react.vercel.app/img/portfolio/3.jpg",
     tools:
-      "ReactJS, ReactQuery, Material UI, JavaScript, StyledComponents, Redux Toolkit",
+      "ReactJS, ReactQuery, Material UI, JavaScript, Formik, StyledComponents, Redux Toolkit",
     contentDirection: "float-left",
     background: "#C291C4",
     link: "https://www.lagodesign.com/en/",
